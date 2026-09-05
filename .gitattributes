@@ -1,0 +1,13 @@
+* text=auto
+*.md text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.mts text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.blend binary
+*.wasm binary
+*.task binary

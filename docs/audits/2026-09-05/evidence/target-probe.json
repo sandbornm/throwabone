@@ -1,0 +1,146 @@
+[
+  {
+    "shot": {
+      "aim": -1.0277840192307086,
+      "power": 0.65,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 2.9416666666666664,
+    "scoreBeforeReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 0,
+    "landing": {
+      "x": -1.1953908205032349,
+      "y": 0.00012866561462843214,
+      "z": 1.5256270170211792
+    }
+  },
+  {
+    "shot": {
+      "aim": -1.0277840192307086,
+      "power": 0.75,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 3.525,
+    "scoreBeforeReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 0,
+    "landing": {
+      "x": -0.8048548102378845,
+      "y": 0.0000012442768818327676,
+      "z": 2.223428249359131
+    }
+  },
+  {
+    "shot": {
+      "aim": -1.0277840192307086,
+      "power": 0.85,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 3.7333333333333334,
+    "scoreBeforeReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 0,
+    "landing": {
+      "x": -0.893619954586029,
+      "y": 0.0002858968502282579,
+      "z": 1.3266303539276123
+    }
+  },
+  {
+    "shot": {
+      "aim": 1.0277840192307086,
+      "power": 0.65,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 2.45,
+    "scoreBeforeReset": {
+      "down": 1,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 1,
+    "landing": {
+      "x": 0.6092962026596069,
+      "y": -0.00018209647100242107,
+      "z": 1.860938310623169
+    }
+  },
+  {
+    "shot": {
+      "aim": 1.0277840192307086,
+      "power": 0.75,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 3.3166666666666664,
+    "scoreBeforeReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 0,
+    "landing": {
+      "x": 0.7987462282180786,
+      "y": -0.00003973178077862733,
+      "z": 2.21771502494812
+    }
+  },
+  {
+    "shot": {
+      "aim": 1.0277840192307086,
+      "power": 0.85,
+      "loft": 18,
+      "spin": 1
+    },
+    "settled": true,
+    "simulatedSeconds": 4.008333333333333,
+    "scoreBeforeReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "scoreAfterReset": {
+      "down": 0,
+      "guards": 0
+    },
+    "resetCount": 0,
+    "landing": {
+      "x": 0.8924520611763,
+      "y": 0.0003410024399179709,
+      "z": 1.3267390727996826
+    }
+  }
+]

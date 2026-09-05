@@ -1,0 +1,4 @@
+coacd==1.0.7
+numpy==2.5.2
+trimesh==5.1.0
+scipy==1.18.1

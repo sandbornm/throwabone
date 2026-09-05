@@ -1,0 +1,31 @@
+# Local configuration and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.openai/
+.codex/
+.agents/
+
+# Dependencies, build output and scratch work
+node_modules/
+dist/
+.next/
+.vinext/
+.wrangler/
+coverage/
+outputs/
+work/
+tmp/
+*.log
+*.tsbuildinfo
+.venv/
+__pycache__/
+*.pyc
+
+# Blender's rolling backups; primary .blend sources are versioned
+*.blend[0-9]*

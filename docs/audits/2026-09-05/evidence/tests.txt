@@ -1,0 +1,77 @@
+
+> throwabone@0.1.0 test
+> node --import tsx --test lib/game/*.test.ts
+
+✔ camera access is requested immediately from the click, with video only (4.31325ms)
+✔ closing during a permission prompt stops a camera that is allowed later (0.285375ms)
+✔ a stale request cannot replace or stop a later camera session (0.30125ms)
+✔ denied access reports recovery guidance and a new request can succeed (0.53275ms)
+✔ insecure and unsupported contexts explain the problem without requesting a camera (0.198791ms)
+✔ missing and busy cameras have distinct guidance from permission denial (0.157042ms)
+✔ a dismissed session ignores a late denial without an unhandled rejection (6.10475ms)
+✔ hand tracking matches the chosen pose wrist and distinguishes open from curled fingers (5.297458ms)
+✔ palm turn follows rotation while stationary hands and tracking gaps produce no stale motion (1.415041ms)
+✔ tiny, ambiguous and malformed hands do not produce measurements (0.410125ms)
+✔ the joint overlay stays available without a body pose or reliable motion geometry (0.307375ms)
+✔ the joint overlay displays both detected hands while ignoring incomplete detections (0.310166ms)
+✔ wrist twist around the palm normal produces signed spin even when the palm normal stays still (1.16175ms)
+✔ finger opening alone does not create spin and lost tracking clears the spin vector (2.144917ms)
+✔ camera setup requires shoulders, hips, throwing hand and sufficient room (2.827ms)
+✔ an armed underhand swing releases exactly once and preserves selected spin (1.085125ms)
+✔ unarmed motion, overhand starts and lost tracking cannot release a throw (0.490875ms)
+✔ either throwing hand can arm, lower and release without clicking (1.853583ms)
+✔ a wave, the other hand and discontinuous camera frames do not arm (0.622166ms)
+✔ framing loss and a busy court cancel arming and any prepared swing (0.774708ms)
+✔ manual cancellation requires lowering before a fresh arming gesture (0.63875ms)
+✔ camera aim follows mirrored hand movement for both hands and does not accumulate preview feedback (1.4185ms)
+✔ moving the whole body sideways does not steer a stationary throwing arm (1.512375ms)
+using deprecated parameters for the initialization function; pass a single object instead
+gravel { down: 0, guards: 0 } fA {
+  x: -0.5678947567939758,
+  y: 0.0346662737429142,
+  z: 0.0001825417421059683
+}
+dirt { down: 0, guards: 0 } fA {
+  x: -0.5677230954170227,
+  y: 0.0346803218126297,
+  z: 0.0003822555881924927
+}
+grass { down: 0, guards: 0 } fA {
+  x: -0.5672056674957275,
+  y: 0.034688543528318405,
+  z: 0.0008688673260621727
+}
+indoor { down: 0, guards: 0 } fA {
+  x: -0.5681228041648865,
+  y: 0.034663692116737366,
+  z: 0.000008992292350740172
+}
+Slide distances { indoor: 1.521641731262207, grass: 0.49097394943237305 }
+✔ camera aim and spin reach the rigid body with their direction and units preserved (1784.125333ms)
+✔ compound colliders conserve the assigned mass (137.324ms)
+✔ 22 bones remain upright on each surface (5833.691958ms)
+✔ a low throw still knocks a guard down on every surface (8325.598625ms)
+✔ a non-spinning 75 cm drop has a small rebound and settles on every surface (4328.17675ms)
+✔ released throws follow gravity (75.706459ms)
+✔ surface friction changes sliding distance without tunnelling (2865.645541ms)
+✔ repeated releases produce the same result (2218.943125ms)
+✔ the worker loads hands only on request and stops returning them when disabled (15.335833ms)
+✔ a hand model failure preserves pose inference and releases the frame (2.142625ms)
+using deprecated parameters for the initialization function; pass a single object instead
+✔ early soldiers reset inside, then outside, then where they landed (997.375166ms)
+✔ a soldier falling with the first guard resets beside the remaining guard (577.765875ms)
+✔ soldiers are valid after both guards fall (234.470041ms)
+✔ a later guard fall does not erase an earlier soldier penalty (306.337917ms)
+✔ reset placements do not overlap each other when several soldiers fall early (459.482167ms)
+✔ side view frames the whole target row and nearby impacts on wide and portrait screens (131.044542ms)
+✔ follow frames low and high arcs, lateral throws and ground runout with a level camera (231.320834ms)
+✔ ending follow restores whichever fixed view was selected (10.599834ms)
+✔ first-person framing includes both rows and the release on desktop and portrait screens (0.709958ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 28548.680542

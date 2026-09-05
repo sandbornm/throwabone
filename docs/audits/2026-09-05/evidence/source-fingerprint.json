@@ -1,0 +1,121 @@
+{
+  "date": "2026-09-05T22:08:57.400Z",
+  "node": "v25.8.2",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "sourceGitRepository": false,
+  "files": [
+    {
+      "path": "app/globals.css",
+      "sha256": "3305d97fc84399ff9ba0a2d99ad021b61d0356297b2ad423e3ca505af670a586"
+    },
+    {
+      "path": "app/layout.tsx",
+      "sha256": "717d9479d5c44d53bcf62b9fd3ed89f3484fa77aa458746082481fd60d05e874"
+    },
+    {
+      "path": "app/page.tsx",
+      "sha256": "0ff7384c1dd39c8668ebaade3e0a4e5fc6ecf7abe1c8435f3f15b69e819e3264"
+    },
+    {
+      "path": "components/game/camera-throw.tsx",
+      "sha256": "90ffde3d26d5e71f22af8697e07c754b7576ea3b730feb21aed475c4f35f564d"
+    },
+    {
+      "path": "components/game/throw-journal.tsx",
+      "sha256": "667a76213cb5cc3edfe43e09d6d80b32b06d520ea12c5f6e2d7858e40a7fc88f"
+    },
+    {
+      "path": "components/game/throw-pad.tsx",
+      "sha256": "669e562aeca0448fa433ee312129c0ad0cae6ccef38601f383ab785d63e3074e"
+    },
+    {
+      "path": "lib/game/camera-access.test.ts",
+      "sha256": "1f0cf49099a807ff41ec9163de8ef9af7a268367578e4ab8fc5b1304c5c2305e"
+    },
+    {
+      "path": "lib/game/camera-access.ts",
+      "sha256": "8b9f4d361b76b14665b91c218f5745ccdd7238d86efb79bda402d767ad30c345"
+    },
+    {
+      "path": "lib/game/hand-motion.test.ts",
+      "sha256": "381176fae5767f2352721635797a8cbb81bbf7198505cc54e42a05c21eaff410"
+    },
+    {
+      "path": "lib/game/hand-motion.ts",
+      "sha256": "6e82c4cb836667b6f94d5d96a88305d744ee927c184873621564f672a357a8c7"
+    },
+    {
+      "path": "lib/game/motion.test.ts",
+      "sha256": "a606480408464d96e6e6bf0bd5deba0060a21d599a9b3a1bbfe94b0558ef09b7"
+    },
+    {
+      "path": "lib/game/motion.ts",
+      "sha256": "f2e37d4eddb9e4b3ee46f3249d81842ca4dc56e3daf98ff18083519b1480f1d0"
+    },
+    {
+      "path": "lib/game/physics.test.ts",
+      "sha256": "993c41c6278cca70dc9b295a35385aa453c6aaf824281f89f0787f9ee95209f3"
+    },
+    {
+      "path": "lib/game/physics.ts",
+      "sha256": "890dab865fb7db32b3f43e288a7d8ed6720119e19968a2f867027e8c14c11599"
+    },
+    {
+      "path": "lib/game/pose-worker.test.ts",
+      "sha256": "3c2f34ff4c2b8b3bb39f202b4c5100ac60228bb3ef9b5475835e01154c3ba72f"
+    },
+    {
+      "path": "lib/game/rules.test.ts",
+      "sha256": "286c559c3bc7dfa6fcfed785a28cbaa023a50094f1b6cc9aec7c7794bdcad25d"
+    },
+    {
+      "path": "lib/game/scene.ts",
+      "sha256": "c7aa94025bfc26b689975470ae70692775fe5bb3aaef32fa7e723265c2041009"
+    },
+    {
+      "path": "lib/game/types.ts",
+      "sha256": "fcebac9b2cbfbffde8ca5681fab7d34757b6fd3a21c2c4d2ab71560f9b372934"
+    },
+    {
+      "path": "lib/game/view.test.ts",
+      "sha256": "bf9ba92843b732e8dd8a4c8a3a84cc6d66d4865030a4c547af5f0f686717dd0f"
+    },
+    {
+      "path": "lib/game/view.ts",
+      "sha256": "9f55fee17643edb9a540885923aa9d80276c848e781b8cfb43fa87d7a52aad3c"
+    },
+    {
+      "path": "lib/game/webmcp.ts",
+      "sha256": "784c0f7760e61104d3aea6b2dacf21ed3996afa69dd51b76c7c0dd03c1ad9d81"
+    },
+    {
+      "path": "public/pose-worker.js",
+      "sha256": "6ad7ae5a95f81a36dba2b20becb3462b74fa2e6b0f14bcbe522b7d7a69628248"
+    },
+    {
+      "path": "public/models/bone.json",
+      "sha256": "4e00696282c260089682ee6110cdd3d1a3375d65cb4e3f7edf45d1648759735a"
+    },
+    {
+      "path": "package.json",
+      "sha256": "a505a2859b2ee7adb0725f0b9d7098ceaf8ae847389189afe8ca0facd7060e18"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "9d29f5d50a21c3566868d0bb68a473f07d6710f50b1fc71d04b086b608857cf9"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "b82a0e3b33b771cd30010c7449eab5508f78f525c87455ef126b0560b7882c8c"
+    },
+    {
+      "path": "next.config.ts",
+      "sha256": "520f5869cb65fe5e669b75255681958ebc48d20f704279a4bfc01c16218f1b27"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "sha256": "4de179139877444831b46b069ef57f8c7b95c760e7c626cdcddfdba6a9e7840c"
+    }
+  ]
+}

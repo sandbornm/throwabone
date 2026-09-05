@@ -1,0 +1,15 @@
+MediaPipe Tasks Vision 0.10.22-rc.20250304
+Package: https://www.npmjs.com/package/@mediapipe/tasks-vision
+Project: https://github.com/google-ai-edge/mediapipe
+SDK license: Apache-2.0
+The bundled SDK and Wasm files are copied without modifications from the package.
+
+Pose Landmarker Lite model, downloaded 2026-09-05 from the official Google distribution:
+https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_lite/float16/latest/pose_landmarker_lite.task
+Model documentation and model card:
+https://developers.google.com/edge/mediapipe/solutions/vision/pose_landmarker
+
+Hand Landmarker model version 1, downloaded 2026-09-05 from the official Google distribution:
+https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/1/hand_landmarker.task
+Model documentation and model card:
+https://developers.google.com/edge/mediapipe/solutions/vision/hand_landmarker

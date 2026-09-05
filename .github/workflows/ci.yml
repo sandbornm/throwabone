@@ -1,0 +1,74 @@
+name: Validate prototype
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Types, tests and static build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci --no-audit
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build
+
+  known-findings:
+    name: Existing lint and dependency findings
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: web
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - run: npm ci --no-audit
+      - name: Lint (open audit work)
+        id: lint
+        continue-on-error: true
+        run: npm run lint
+      - name: Dependency audit (open audit work)
+        id: audit
+        continue-on-error: true
+        run: npm audit
+      - name: Report outstanding findings
+        if: always()
+        env:
+          LINT_OUTCOME: ${{ steps.lint.outcome }}
+          AUDIT_OUTCOME: ${{ steps.audit.outcome }}
+        run: |
+          node --input-type=module <<'NODE'
+          import { appendFileSync } from 'node:fs';
+          appendFileSync(process.env.GITHUB_STEP_SUMMARY,
+            `Lint: ${process.env.LINT_OUTCOME}\n\nDependency audit: ${process.env.AUDIT_OUTCOME}\n\n` +
+            'These checks report existing prototype findings. See docs/release.md. A passing required job does not approve public deployment.\n');
+          NODE

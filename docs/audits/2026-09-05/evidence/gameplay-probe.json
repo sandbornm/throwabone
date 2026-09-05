@@ -1,0 +1,257 @@
+{
+  "note": "Functional Node/Wasm probes; wall time excludes browser rendering and camera inference and is not a mobile benchmark.",
+  "results": [
+    {
+      "surface": "gravel",
+      "case": "default",
+      "shot": {
+        "aim": -0.6,
+        "power": 0.6,
+        "loft": 18,
+        "spin": 1
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 2.783333333333333,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 839
+    },
+    {
+      "surface": "gravel",
+      "case": "short-wide",
+      "shot": {
+        "aim": 1.65,
+        "power": 0.15,
+        "loft": 8,
+        "spin": 0
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 2.058333333333333,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 773
+    },
+    {
+      "surface": "gravel",
+      "case": "high-power-lob",
+      "shot": {
+        "aim": 0.6,
+        "power": 1,
+        "loft": 45,
+        "spin": 5
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 2.841666666666667,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 677
+    },
+    {
+      "surface": "dirt",
+      "case": "default",
+      "shot": {
+        "aim": -0.6,
+        "power": 0.6,
+        "loft": 18,
+        "spin": 1
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 3.341666666666667,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 807
+    },
+    {
+      "surface": "dirt",
+      "case": "short-wide",
+      "shot": {
+        "aim": 1.65,
+        "power": 0.15,
+        "loft": 8,
+        "spin": 0
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 1.9749999999999999,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 1047
+    },
+    {
+      "surface": "dirt",
+      "case": "high-power-lob",
+      "shot": {
+        "aim": 0.6,
+        "power": 1,
+        "loft": 45,
+        "spin": 5
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 3.2416666666666667,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 727
+    },
+    {
+      "surface": "grass",
+      "case": "default",
+      "shot": {
+        "aim": -0.6,
+        "power": 0.6,
+        "loft": 18,
+        "spin": 1
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 3.2916666666666665,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 835
+    },
+    {
+      "surface": "grass",
+      "case": "short-wide",
+      "shot": {
+        "aim": 1.65,
+        "power": 0.15,
+        "loft": 8,
+        "spin": 0
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 1.5583333333333333,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 656
+    },
+    {
+      "surface": "grass",
+      "case": "high-power-lob",
+      "shot": {
+        "aim": 0.6,
+        "power": 1,
+        "loft": 45,
+        "spin": 5
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 2.466666666666667,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 671
+    },
+    {
+      "surface": "indoor",
+      "case": "default",
+      "shot": {
+        "aim": -0.6,
+        "power": 0.6,
+        "loft": 18,
+        "spin": 1
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 3.85,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 1950
+    },
+    {
+      "surface": "indoor",
+      "case": "short-wide",
+      "shot": {
+        "aim": 1.65,
+        "power": 0.15,
+        "loft": 8,
+        "spin": 0
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 2.675,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 1386
+    },
+    {
+      "surface": "indoor",
+      "case": "high-power-lob",
+      "shot": {
+        "aim": 0.6,
+        "power": 1,
+        "loft": 45,
+        "spin": 5
+      },
+      "settledWithin15Seconds": true,
+      "simulatedSeconds": 3.8833333333333333,
+      "score": {
+        "down": 0,
+        "guards": 0
+      },
+      "resets": 0,
+      "immediatelyReady": false,
+      "immediateThrowError": "Error: Wait for the current throw to settle.",
+      "recoverySeconds": 0.4,
+      "wallMilliseconds": 751
+    }
+  ]
+}

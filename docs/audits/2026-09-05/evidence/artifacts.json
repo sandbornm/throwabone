@@ -1,0 +1,219 @@
+{
+  "generatedAt": "2026-09-05T22:06:11.035Z",
+  "fileCount": 34,
+  "totalBytes": 37276729,
+  "filesOver25MiB": [],
+  "sensitiveFilenameMatches": [],
+  "credentialPatternScan": {
+    "note": "Limited signature check, not a guarantee of no embedded secrets; values are never logged.",
+    "checkedFiles": 52,
+    "matchingFiles": []
+  },
+  "authoredLintDiagnostics": 56,
+  "files": [
+    {
+      "path": "dist/client/.vite/manifest.json",
+      "bytes": 4532,
+      "gzipBytes": 763,
+      "sha256": "a31207ce35c5d37a6373ef44b51e59cc84c691677ead10f0d180b2eef374f1b5"
+    },
+    {
+      "path": "dist/client/404.html",
+      "bytes": 5464,
+      "gzipBytes": 1762,
+      "sha256": "6cd2d91902eec797531493e8af487c2e1ff507278413d16a1c559d45ad8b7ca9"
+    },
+    {
+      "path": "dist/client/_next/static/9792fe81-095e-4c9b-a868-0ae12dc2c3b6/_buildManifest.js",
+      "bytes": 159,
+      "gzipBytes": 121,
+      "sha256": "47f02b34be6dc481257b6efce4c19e19111f37ef5c437f8ffed44f0da97fa9bb"
+    },
+    {
+      "path": "dist/client/_next/static/9792fe81-095e-4c9b-a868-0ae12dc2c3b6/_ssgManifest.js",
+      "bytes": 76,
+      "gzipBytes": 60,
+      "sha256": "653f3e53e89b4f8548ff86c19e92bb3c6b84b6be7485a320b1e00893ed877479"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/app-route-prefetch-policy-Du2YfY82.js",
+      "bytes": 937,
+      "gzipBytes": 485,
+      "sha256": "e012421295456c6ebc881429dfcb7fad2b706b01b46604df8eac91c04663ceb4"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/arrow-up-right-CtMbJyCA.js",
+      "bytes": 164,
+      "gzipBytes": 153,
+      "sha256": "c9348005f2cf8c36c3ed2139cfaf8093293cb4e22ce11e50a5ee481c314fd540"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/camera-throw-CVVmj8pL.js",
+      "bytes": 24332,
+      "gzipBytes": 9176,
+      "sha256": "3da2ddf61b590329d99468985ee24edecce20243ffeee504be7fdb1f04d2f952"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/dialog-REB1-TIm.js",
+      "bytes": 86387,
+      "gzipBytes": 28586,
+      "sha256": "a2a86f3e8e0c619502e2c7787f726245ae65de582c91c4262367c4954f7f9b0f"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/framework-D_rUT4EX.js",
+      "bytes": 190152,
+      "gzipBytes": 59078,
+      "sha256": "939d0fabebb3b2f01753bb866b067d8d3384fb06da19f0e6557609d3b1a9f4f7"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/index-CpOHl20J.js",
+      "bytes": 192495,
+      "gzipBytes": 55773,
+      "sha256": "44a8727566ee2c5de45559be34015e26d6c132f7e1350228a5e18fb34e852fcf"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/layout-segment-context-BUZRBbc6.js",
+      "bytes": 494,
+      "gzipBytes": 345,
+      "sha256": "3492f2969f168edf41b590fed9a8e81585d013b2667d11c00ad4e47af4f0e5eb"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/page-mrAji5iY.js",
+      "bytes": 49553,
+      "gzipBytes": 17427,
+      "sha256": "5637a3b2fa6df276f1ed36c77c26033da2fa7517fff3b9699ca66db096d18aa5"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/rolldown-runtime-C60lm6uB.js",
+      "bytes": 694,
+      "gzipBytes": 423,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/scene-xIZT9t4D.js",
+      "bytes": 2273063,
+      "gzipBytes": 848458,
+      "sha256": "2c650490cc734396ec23b7d08fea475e60acdbbd1489e0dd45858a54d4d52ecc"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/streamed-icons-B77DYGFv.js",
+      "bytes": 772,
+      "gzipBytes": 490,
+      "sha256": "7eb2a6b44b9c0faa7300c8dd36b0fae7a35d9f65e139dd9046b3df193aa83bc8"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/three.module-fgWZZIsn.js",
+      "bytes": 511493,
+      "gzipBytes": 126153,
+      "sha256": "4b41b8938e02632d6f27164d4effa822fa7b3c879abb0fcf8d3782e032f45933"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/throw-journal-cUxxj5gY.js",
+      "bytes": 360029,
+      "gzipBytes": 104961,
+      "sha256": "aeb5df585818392a1d73098824bf4cf6b6e3987e889aef5815b3295c6e263111"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/types-C-8IKHRH.js",
+      "bytes": 899,
+      "gzipBytes": 524,
+      "sha256": "32b45e5425d7f63a5024e53538c826f33dd26006a726e2b9664f93dd914c10e9"
+    },
+    {
+      "path": "dist/client/_next/static/chunks/with-selector-Ci1f8o0r.js",
+      "bytes": 30285,
+      "gzipBytes": 9919,
+      "sha256": "0a472ed548aeee3e9519f6fe79f6dd33a4a80ad88c565fe54671d86e507bed66"
+    },
+    {
+      "path": "dist/client/_next/static/css/index.GiF63JO8.css",
+      "bytes": 213785,
+      "gzipBytes": 34387,
+      "sha256": "87a10fdd3d1935377d1c644961f180b6063d3082d2e7454e8615081710d87f82"
+    },
+    {
+      "path": "dist/client/favicon.svg",
+      "bytes": 246,
+      "gzipBytes": 201,
+      "sha256": "acddb4f9f8e8844d389e77ef39b53e33b4679f3f430021c17f1a6444848d54dc"
+    },
+    {
+      "path": "dist/client/index.html",
+      "bytes": 38899,
+      "gzipBytes": 7032,
+      "sha256": "30f488c608e80b83f28eeebd7c0de4a896ac9b5b08b24e6f56b3ce345bbc99ab"
+    },
+    {
+      "path": "dist/client/index.rsc",
+      "bytes": 3652,
+      "gzipBytes": 1561,
+      "sha256": "67415b762748ce2efb7889e8fbeac82d83878b53e68ff66bed5cb6f13c556770"
+    },
+    {
+      "path": "dist/client/models/bone.json",
+      "bytes": 118190,
+      "gzipBytes": 41169,
+      "sha256": "4e00696282c260089682ee6110cdd3d1a3375d65cb4e3f7edf45d1648759735a"
+    },
+    {
+      "path": "dist/client/pose-worker.js",
+      "bytes": 3086,
+      "gzipBytes": 969,
+      "sha256": "6ad7ae5a95f81a36dba2b20becb3462b74fa2e6b0f14bcbe522b7d7a69628248"
+    },
+    {
+      "path": "dist/client/vinext-client-entry-manifest.json",
+      "bytes": 65,
+      "gzipBytes": 85,
+      "sha256": "e57ce0e50422d90aad415c51bcce6bcce74fdcc6fc4e24da70a2a3fadeabd238"
+    },
+    {
+      "path": "dist/client/vision/NOTICE.txt",
+      "bytes": 915,
+      "gzipBytes": 391,
+      "sha256": "16ae3202540552f86af90289484d370f5a9c0b1d15abca24d333a144200d65b6"
+    },
+    {
+      "path": "dist/client/vision/hand_landmarker.task",
+      "bytes": 7819105,
+      "gzipBytes": 5853799,
+      "sha256": "fbc2a30080c3c557093b5ddfc334698132eb341044ccee322ccf8bcf3607cde1"
+    },
+    {
+      "path": "dist/client/vision/pose_landmarker_lite.task",
+      "bytes": 5777746,
+      "gzipBytes": 4956106,
+      "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a"
+    },
+    {
+      "path": "dist/client/vision/vision_bundle.cjs",
+      "bytes": 137969,
+      "gzipBytes": 39753,
+      "sha256": "ea86a96c1f61c4ff97e4b7ba764cd0a61a78d30ccebe766daa0f8f15f79049d1"
+    },
+    {
+      "path": "dist/client/vision/vision_wasm_internal.js",
+      "bytes": 204284,
+      "gzipBytes": 49783,
+      "sha256": "4a97e2520ba506c680ecd6ba6acfb146888afa0e2746d57f205352bc6ebb82eb"
+    },
+    {
+      "path": "dist/client/vision/vision_wasm_internal.wasm",
+      "bytes": 9574032,
+      "gzipBytes": 2913102,
+      "sha256": "f00ec4731faa23b3e714d00e88d4d10e2df5c0a427d3a2b4ae6e3526fdd14ef7"
+    },
+    {
+      "path": "dist/client/vision/vision_wasm_nosimd_internal.js",
+      "bytes": 204137,
+      "gzipBytes": 49738,
+      "sha256": "927def7b465c51b86e4b3060f93646aca4e27121f4b8fc0483786e407ea9cf1f"
+    },
+    {
+      "path": "dist/client/vision/vision_wasm_nosimd_internal.wasm",
+      "bytes": 9448638,
+      "gzipBytes": 2907768,
+      "sha256": "3821ea9b1f7fb8c549ef2a064ef5c85750bf375c545a49fd6eea0df44a95f1f4"
+    }
+  ]
+}
