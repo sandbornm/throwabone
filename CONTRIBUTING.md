@@ -1,7 +1,7 @@
 # Contributing
 
 Start with [development setup](docs/development.md) and the shared
-[agent and maintainer guide](AGENTS.md). This is a private prototype; coordinate
+[agent and maintainer guide](AGENTS.md). This is a work-in-progress prototype; coordinate
 access and product changes with the repository owner.
 
 1. Create a branch for a focused change.

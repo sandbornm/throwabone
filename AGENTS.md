@@ -6,7 +6,7 @@ historical evidence; the release document tracks which findings remain open.
 
 ## Project boundaries
 
-- This is a private prototype and unlimited practice range. A repository push
+- This is a work-in-progress prototype and unlimited practice range. A repository push
   is not a public game deployment. Follow the owner's explicit publishing instructions.
 - The web application lives in `web/`. Run npm commands there, using the lockfile.
 - Rapier's official Rust/Wasm package owns physics. TypeScript owns the controls,

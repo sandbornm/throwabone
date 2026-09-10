@@ -1,6 +1,6 @@
 # Release readiness
 
-Current stage: **private prototype**. The game is not approved for public launch.
+Current stage: **work-in-progress prototype**. The game is not approved for public launch.
 Repository setup provides source control, human/agent documentation and CI; it
 does not close the gameplay or dependency findings from the
 [September 5 audit](audits/2026-09-05.md).
@@ -66,6 +66,31 @@ phone, responsive input and no stuck throw state. This target has not been measu
 Close R07 before presenting historical comparisons as reliable coaching. Measured
 bone dimensions/masses and independent physical throw/drop trials are also required
 before claims about real-world technique. Current aim/spin mappings remain game controls.
+
+## Tennis experiment
+
+The independent `/tennis` prototype is available for local testing. Source and
+controls are in [web/tennis](../web/tennis/README.md). It includes hand-only and
+full-arm swings, off-hand racket placement, toss-and-serve practice, spin controls
+and paused navigation around the ball. It uses the existing dependencies and
+local vision models. It has not been published.
+
+On September 9, 2026, Node 22.22.2 passed type checking, all 80 tests (38 tennis
+tests) and static production export. Lint passes for the new tennis files;
+repository-wide lint still reports 75 existing errors. The dependency audit
+reports 11 flagged entries (8 high, 2 moderate, 1 low). No original audit item is
+closed by this experiment.
+
+The first owner test led to quieter bounce synthesis, a racket pivot at the
+string bed, grip-angle adjustment, clearer calibration and a hand-only inference
+path that does not load the shoulder/elbow model. A subsequent report exposed
+placement assistance overwriting the player's input with the ball position.
+The racket now follows hand or mouse input, and assistance only extends contact
+reach. Camera swings accept continuing movement and wrist-only flicks. New
+camera-to-physics regressions cover those failures, both playing hands and lost
+tracking. Updated browser, live-camera, audio and physical-device verification
+remains open. See
+[validation evidence and limits](tennis-validation.md).
 
 ## Maintaining this file
 

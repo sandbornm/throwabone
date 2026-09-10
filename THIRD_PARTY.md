@@ -1,7 +1,7 @@
 # Third-party components and asset provenance
 
 No open-source license has been selected for the first-party game code or the
-owner-supplied Blender models. This private repository does not grant permission
+owner-supplied Blender models. This repository does not grant permission
 to redistribute them. Third-party components retain their own licenses.
 
 The following is a starting inventory, not a completed distribution notice bundle.

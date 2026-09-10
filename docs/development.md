@@ -2,8 +2,7 @@
 
 ## Fresh clone
 
-Access to the private `sandbornm/throwabone` repository is required to clone it.
-The game itself does not ask players to sign in.
+The game itself does not ask players to sign in. Clone the repository:
 
 ```sh
 git clone https://github.com/sandbornm/throwabone.git

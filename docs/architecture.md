@@ -20,6 +20,14 @@ flowchart LR
 
 ## Source map and ownership
 
+The independent `/tennis` route uses `web/tennis/` for its UI, rendering, Rapier
+world and gesture state machines. `web/app/tennis/page.tsx` is its route entry;
+`web/public/tennis/vision-worker.js` reuses the existing vendored vision models.
+It imports the existing camera permission helper and palm-rotation tracker but
+does not modify Throwabone’s scene, rules or stored records. Tennis session
+records stay in memory. See the [tennis guide](../web/tennis/README.md).
+
+
 | Module | Responsibility |
 | --- | --- |
 | `web/app/page.tsx` | React controls, mode selection and scene mounting |

@@ -9,7 +9,7 @@ version, impact and enough context for investigation. Do not post credentials,
 personal recordings or sensitive vulnerability details in a public location.
 
 See [release readiness](docs/release.md) for outstanding dependency and deployment
-work. A passing build or access to this private repository is not a production
+work. A passing build is not a production
 security guarantee. Changes that add uploads, accounts, shared results or paid
 services require a new review of the resulting data flow and abuse controls.
 
