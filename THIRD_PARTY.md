@@ -12,7 +12,7 @@ Check the lockfile and actual shipped bundles when preparing a public release.
 | [Rapier JavaScript](https://github.com/dimforge/rapier.js) | 0.19.3 | Apache-2.0 | Rust/Wasm rigid-body physics |
 | [MediaPipe Tasks Vision](https://github.com/google-ai-edge/mediapipe) | 0.10.22-rc.20250304 | Apache-2.0 | Pose/hand SDK and Wasm |
 | [Three.js](https://github.com/mrdoob/three.js) | 0.180.0 | MIT | Rendering |
-| [React](https://github.com/facebook/react) | 19.2.6 | MIT | UI |
+| [React](https://github.com/facebook/react) | 19.2.9 | MIT | UI |
 | [Recharts](https://github.com/recharts/recharts) | 3.8.0 | MIT | Journal charts |
 | [Vinext](https://github.com/cloudflare/vinext) | 1.0.0-beta.5 | MIT | Build and static export |
 
